@@ -8,7 +8,7 @@ ENV PYTHONUNBUFFERED=1 \
     DATA_DIR=/app/data
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends openjdk-17-jre-headless curl unzip ca-certificates \
+    && apt-get install -y --no-install-recommends openjdk-21-jre-headless curl unzip ca-certificates \
     && rm -rf /var/lib/apt/lists/* \
     && mkdir -p /opt/dpt /app/data/jobs
 
