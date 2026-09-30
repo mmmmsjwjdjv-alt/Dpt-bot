@@ -1,9 +1,5 @@
 .git
 .gitignore
-__pycache__
+README.md
 *.pyc
-*.apk
-*.aab
-*.zip
-*.7z
-.env
+__pycache__
